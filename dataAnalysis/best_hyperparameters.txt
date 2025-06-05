@@ -1,0 +1,6 @@
+Gradient Boosting: {'n_estimators': 260, 'max_depth': 3, 'learning_rate': 0.020070683027143474, 'min_samples_split': 12, 'min_samples_leaf': 1, 'subsample': 0.7983514043921213}
+XGBoost: {'n_estimators': 109, 'max_depth': 3, 'learning_rate': 0.16900580854829036, 'gamma': 0.6179310637911712, 'colsample_bytree': 0.7022877493630614, 'min_child_weight': 2, 'subsample': 0.7843537076667889, 'reg_alpha': 4.4794743551383265, 'reg_lambda': 2.2976007857636436}
+Elastic Net: {'alpha': 0.2039565768208807, 'l1_ratio': 0.4000859532936192, 'max_iter': 4107}
+SVM: {'C': 99.83939020325212, 'gamma': 0.027164894070849814, 'epsilon': 0.2074368281863774}
+Polynomial: {'degree': 2, 'alpha': 0.11187886852034477, 'l1_ratio': 0.6196480553736863}
+Neural Network: {'n_layers': 3, 'hidden_size_0': 185, 'hidden_size_1': 96, 'hidden_size_2': 92, 'activation': 'relu', 'alpha': 0.0003549803309318625, 'learning_rate_init': 0.0016369715462789848, 'max_iter': 518}
