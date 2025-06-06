@@ -1,10 +1,26 @@
 # Yerba Mate Phenolic Extraction Analysis
 
+## Summary
+- [Yerba Mate Phenolic Extraction Analysis](#yerba-mate-phenolic-extraction-analysis)
+  - [Summary](#summary)
+  - [Introduction](#introduction)
+  - [Objective](#objective)
+  - [Installation \& Setup](#installation--setup)
+  - [Repository Structure](#repository-structure)
+    - [Color Extraction colorsExtraction](#color-extraction-colorsextraction)
+    - [Data Analysis dataAnalysis](#data-analysis-dataanalysis)
+    - [Implementation implementation.py](#implementation-implementationpy)
+  - [Model Performance](#model-performance)
+  - [Data Requirements](#data-requirements)
+
 ## Introduction
+Ilex paraguariensis contains numerous bioactive compounds and is a form of social interaction in many countries. Yerba mate beverages generally contain higher total polyphenol content (TPC) compared to other plant-based drinks, with hot water-extracted mate offering a higher amount of polyphenol intake, highlighting its importance as a source of antioxidants. For TPC quantification, the colorimetric method using smartphones combined with the Folin-Ciocalteu (FC) assay has been employed for a low-cost and rapid evaluation in different products. However, this approach relies on the FC assay, limiting this method’s accessibility due to the reagent costs and equipment involved.
+
+The study of this repository is present at this [link]().
 
 ## Objective
 
-This repository provides tools for analyzing and predicting Total Polyphenol Content (TPC) in yerba mate aqueous extracts before a Folin-Cicalteau assay using image processing and machine learning. The system uses RGB and HSV color features along with pH measurements to estimate phenolic compound concentrations.
+This repository provides tools for analyzing and predicting Total Polyphenol Content (TPC) in yerba mate aqueous extracts before a Folin-Ciocalteu assay using image processing and machine learning. The system uses RGB and HSV color features along with pH measurements to estimate phenolic compound concentrations.
 
 ## Installation & Setup
 
@@ -33,7 +49,7 @@ pip install -r requirements.txt
 
 ### Color Extraction [colorsExtraction](colorsExtraction/)
 
-Tool for extracting color features from yerba mate extract images obtained using a cellphone camera and the [image capture chamber]().
+Tool for extracting color features from yerba mate extract images obtained using a cellphone camera and the [image capture chamber](https://data.mendeley.com/datasets/5rdnmmbnjk/1).
 
 **Usage:**
 1. Place your images in the "images" folder
@@ -99,6 +115,6 @@ The implemented Elastic Net model achieves:
 
 ## Data Requirements
 
-* Input images should be well-lit photographs of yerba mate extract inside the cuvette within the [image capture chamber]().
+* Input images should be well-lit photographs of yerba mate extract inside the cuvette within the [image capture chamber](https://data.mendeley.com/datasets/5rdnmmbnjk/1).
 * pH measurements.
 * Supported image formats: .jpg, .jpeg, .png, .bmp
